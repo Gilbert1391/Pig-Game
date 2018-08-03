@@ -2,11 +2,32 @@
 *** GENERAL
 **********************************************/
 
+.final-score {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 520px;
+  font-family: 'Lato';
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #555;
+  text-align: center;
+  padding: 10px;
+  width: 160px;
+}
+
+.final-score:focus {
+  outline: none;
+}
+
+#dice-1 {top: 120px;}
+#dice-2 {top: 240px;}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 .clearfix::after {
@@ -80,7 +101,7 @@ body {
     color: #EB4D4D;
     top: -7px;
     right: 10px;
-    
+
 }
 
 .player-current-box {
